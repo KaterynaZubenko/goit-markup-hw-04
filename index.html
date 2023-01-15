@@ -5,46 +5,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        * {
-            box-sizing: border-box;
-        }
-
-        /* Create four equal columns that floats next to each other */
-        .column {
-            float: left;
-            width: 25%;
-            padding: 10px;
-            height: 300px;
-            /* Should be removed. Only for demonstration */
-        }
-
-        /* Clear floats after the columns */
-        .row:after {
-            content: "";
-            display: table;
-            clear: both;
-        }
-    </style>
     <title>Document</title>
 </head>
 
 <body>
     <header>
         <nav>
-            <a href="/index.html"> <span style="color:#4D5AE5">WEB</span>STUDIO </a>
+            <a href="/index.html">WEBSTUDIO </a>
             <ul>
-                <li> <a href='#studio'>Studio</a></li>
-                <li> <a href='#portfolio'>Portfolio</a></li>
-                <li><a href='#contacts'>Contacts</a></li>
+                <li> <a href="#studio">Studio</a></li>
+                <li> <a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contacts">Contacts</a></li>
             </ul>
         </nav>
         <address>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+110001111111">+11 (000) 111-11-11</a>
+            <li><a href=”mailto:info@devstudio.com”>info@devstudio.com</a></li>
+            <li><a  href=”tel:+110001111111”>+11 (000) 111-11-11</a></li>
         </address>
-        </li>
-    
     </header>
     
     <main>
@@ -53,29 +30,30 @@
             <h1 style="color:white;text-align: center;font-size: 40px;">Effective Solutions
                 for Your Business</h1>
             <Button type="button"
-                style="background-color:#4D5AE5; color:white; text-align:center; font-size: large; border-radius: 8px;">Button</br>
+                style="background-color:#4D5AE5; color:white; text-align:center; font-size: large; border-radius: 8px;">Order Service
         </section>
         <section class="row" id="studio">
-            <div class="column">
+            <h2>Theme</h2>
+            <ul>
                 <h3>Strategy</h3>
                 <p>Our goal is to identify the business
                     problem to walk away with the perfect and creative solution.</p>
-            </div>
-            <div class="column">
+            </ul>
+            <ul >
                 <h3>Punctuality</h3>
                 <p>Bring the key message to the brand's audience for the best price within the shortest possible time.
                 </p>
-            </div>
-            <div class="column">
+            </ul>
+            <ul>
                 <h3>Diligence</h3>
                 <p>Research and confirm brands that present the strongest digital growth opportunities and minimize
                     risk.</p>
             </div>
-            <div class="column">
+            <ul>
                 <h3>Technologies</h3>
                 <p>Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.
                 </p>
-            </div>
+            </ul>
         </section>
 
         <section style="text-align: center;">
@@ -88,27 +66,26 @@
         <section style="background-color: #F4F4FD; text-align: center; padding-top: 30px; padding-bottom: 150px;">
             <h2 id="contacts">Our Team </h2>
             <ion class="row" style="padding-top: 15px; padding-bottom: 50px;">
-                <div class="column">
+                <ul class="column">
                     <img src="/image/img.jpg" alt="Mark" width="264">
                     <h3>Mark Guerrero</h3>
                     <p>Product Designer</p>
-                </div>
-                <div class="column">
+                </ul>
+                <ul class="column">
                     <img src="/image/img-2.jpg" alt="Tom" width="264">
                     <h3>Tom Ford</h3>
                     <p>Frontend Developer</p>
-                </div>
-                <div class="column">
+                </ul>
+                <ul class="column">
                     <img src="/image/img-3.jpg" alt="Camila" width="264">
                     <h3>Camila Garcia</h3>
                     <p>Marketing</p>
-                </div>
-                <div class="column">
+                </ul>
+                <ul class="column">
                     <img src="/image/img-4.jpg" alt="Daniel" width="264" >
                     <h3>Daniel Wilson</h3>
                     <p>UI Designer</p>
-                </div>
-                <div></div>
+                </ul>
 
         </section>
     </main>
