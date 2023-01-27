@@ -1,0 +1,206 @@
+
+:root{
+    --bgrd:#2E2F42;
+    --active-color:#404BBF; 
+    --iris:#4D5AE5;
+    --cloud:#F4F4FD;
+    --slate:#434455;
+    --ocean:#404BBF;
+    --cornflower:#E7E9FC;
+    --main: #FFFFFF;
+
+    
+/*Хедер*/
+}
+.header {
+    box-sizing: border-box;    
+        background: var(--main);
+    text-decoration: none;background-color: var(--cornflower);}
+
+
+    .nav-link {
+        text-decoration: none;
+        color: var(--bgrd);
+        font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+       
+        
+    }
+
+    .contacts {
+        text-decoration: none;
+        color: var(--slate);
+        font-weight: 400;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            font-style: normal;
+    
+        
+    }
+       
+.nav-link:hover,
+.nav-link:focus,
+.nav-link.current {
+    color: var(--active-color);
+}
+
+.header-title {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--bgrd);
+    text-decoration: none;
+}
+.header-title span {
+    color: var(--iris);
+}
+/*Основна інформація*/
+.body-font {
+    font-family: 'Roboto';
+       
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--slate);
+}
+
+/*Секція 1*/
+.bgrd {
+    background-color: var(--bgrd);
+}
+.main-title
+{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+color: var(--main); 
+}
+
+/*Кнопка*/
+
+.button-style {
+    font-family: inherit;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.04em;
+        background-color: var(--iris);
+        color: var(--main);
+}
+/* Cховати*/
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+/* Cховати перелік*/
+.hidden-dot { list-style-type: none;}
+
+/*Секція 2*/
+
+.doing-head { font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+
+}
+
+.doing-card {text-align: center;list-style-type: none; }
+.header-theme {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+color: var(--bgrd);
+
+}
+
+/*Секція 3*/
+.title-theme {font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;}
+
+.team-theme {
+    background-color: var(--cloud);
+    color: var(--bgrd);
+}
+
+.card-theme
+{
+background: var(--main);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+    list-style-type: none;
+}
+
+.theme-names { font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;}
+
+    /*Portfolio*/
+
+    .portfolio-button {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.04em;
+            background-color: var(--cloud);
+            border: 1px solid --cornflower; border-radius: 4; 
+        color: var(--iris);}
+      
+
+/*Підвал*/
+.footer-title {
+    font-family: 'Raleway';
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.16;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--cloud);
+        text-decoration: none;
+}
+.footer-body {
+font-family: 'Roboto';
+font-weight: 400;
+ font-size: 16px;
+ line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--cornflower);
+}
+
+.footer-title span 
+{color: var(--iris);}
