@@ -47,6 +47,10 @@
     color: var(--active-color);
 }
 
+.contacts:hover,
+.contacts:focus {
+    color: var(--active-color);
+}
 .header-title {
     font-family: 'Raleway';
     font-weight: 800;
@@ -83,7 +87,6 @@
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
-    letter-spacing: 0.02em;
 color: var(--main); 
 }
 
@@ -123,7 +126,6 @@ color: var(--main);
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
-    letter-spacing: 0.02em;
     text-transform: capitalize;
 
 }
@@ -133,7 +135,6 @@ color: var(--main);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02em;
 color: var(--bgrd);
 
 }
@@ -143,7 +144,6 @@ color: var(--bgrd);
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
-    letter-spacing: 0.02em;
     text-transform: capitalize;}
 
 .team-theme {
@@ -162,10 +162,16 @@ background: var(--main);
 .theme-names { font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    text-align: center;
-    letter-spacing: 0.02em;}
+    text-align: center;}
 
     /*Portfolio*/
+    .portfolio-body {
+        font-family: 'Roboto';
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: var(--bgrd);  }
 
     .portfolio-button {
             font-weight: 500;
@@ -178,6 +184,21 @@ background: var(--main);
             background-color: var(--cloud);
             border: 1px solid --cornflower; border-radius: 4; 
         color: var(--iris);}
+
+                .portfolio-button:hover,
+                .portfolio-button:focus,
+                .portfolio-button.current {
+                    background-color: var(--active-color);
+                    color: var(--main);
+                }
+
+                .portfolio-card {background:var(--main);
+                    /* CORNFLOWER */
+                    border: 1px solid var(--cornflower);}
+
+                    .card-content {font-weight: 400;
+                color:var(--slate);
+                  }
       
 
 /*Підвал*/
@@ -194,11 +215,6 @@ background: var(--main);
         text-decoration: none;
 }
 .footer-body {
-font-family: 'Roboto';
-font-weight: 400;
- font-size: 16px;
- line-height: 1.5;
-letter-spacing: 0.02em;
 color: var(--cornflower);
 }
 
