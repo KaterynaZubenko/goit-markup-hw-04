@@ -52,7 +52,7 @@
     color: var(--active-color);
 }
 .header-title {
-    font-family: 'Raleway, sans-serif';
+    font-family:Raleway,sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.16;
@@ -61,15 +61,13 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--bgrd);
-    text-decoration: none;
-}
+    text-decoration: none;}
 .header-title span {
     color: var(--iris);
 }
 /*Основна інформація*/
 .body-font {
-    font-family: 'roboto, sans-serif';
-       
+    font-family:roboto,sans-serif;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
@@ -93,7 +91,7 @@ color: var(--main);
 /*Кнопка*/
 
 .button-style {
-    font-family: inherit;
+    font-family:inherit;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -168,7 +166,7 @@ background: var(--main);
 
     /*Portfolio*/
     .portfolio-body {
-        font-family: 'roboto, sans-serif';
+        font-family:roboto,sans-serif;
             font-weight: 500;
             font-size: 16px;
             line-height: 1.5;
@@ -205,7 +203,7 @@ background: var(--main);
 
 /*Підвал*/
 .footer-title {
-    font-family: 'Raleway, sans-serif';
+    font-family:Raleway,sans-serif;
         font-weight: 800;
         font-size: 18px;
         line-height: 1.16;
