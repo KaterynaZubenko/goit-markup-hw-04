@@ -52,7 +52,7 @@
     color: var(--active-color);
 }
 .header-title {
-    font-family: 'Raleway';
+    font-family: 'Raleway, sans-serif';
     font-weight: 800;
     font-size: 18px;
     line-height: 1.16;
@@ -68,7 +68,7 @@
 }
 /*Основна інформація*/
 .body-font {
-    font-family: 'Roboto';
+    font-family: 'roboto, sans-serif';
        
         font-weight: 400;
         font-size: 16px;
@@ -159,6 +159,8 @@ background: var(--main);
     list-style-type: none;
 }
 
+.card-title 
+
 .theme-names { font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -166,7 +168,7 @@ background: var(--main);
 
     /*Portfolio*/
     .portfolio-body {
-        font-family: 'Roboto';
+        font-family: 'roboto, sans-serif';
             font-weight: 500;
             font-size: 16px;
             line-height: 1.5;
@@ -174,6 +176,7 @@ background: var(--main);
             color: var(--bgrd);  }
 
     .portfolio-button {
+        font-family: inherit;
             font-weight: 500;
             font-size: 16px;
             line-height: 1.5;
@@ -196,14 +199,13 @@ background: var(--main);
                     /* CORNFLOWER */
                     border: 1px solid var(--cornflower);}
 
-                    .card-content {font-weight: 400;
-                color:var(--slate);
+                    .card-content {color:var(--slate);
                   }
       
 
 /*Підвал*/
 .footer-title {
-    font-family: 'Raleway';
+    font-family: 'Raleway, sans-serif';
         font-weight: 800;
         font-size: 18px;
         line-height: 1.16;
