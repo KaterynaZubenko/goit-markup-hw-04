@@ -7,41 +7,53 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;800&family=Roboto:wght@400;500;700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+<link rel="stylesheet" href="./css/style.css" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Studio</title>
     
 </head>
+<!--Body-->
 
 <body class="body-font">
-    <header class="header">
-        <nav>
+    <!--Header-->
+    <header class="header flex-header">
+    <div class="container ">
+        <nav class="flex-header">
             <a class='header-title' href="./index.html"><span class="iris">WEB</span>STUDIO </a>
-            <ul class="hidden-dot">
+            <ul class="hidden-dot flex-header">
                 <li> <a class="nav-link current" href="./index.html">Studio</a></li>
                 <li> <a class="nav-link" href="./portfolio.html">Portfolio</a></li>
                 <li><aa class="nav-link" href="">Contacts</a></li>
             </ul>
-        </nav>
-        <address >
-            <ul class="hidden-dot">
+        
+        <address>
+            <ul class="hidden-dot header-contacts">
             <li><a class="contacts" href=”mailto:info@devstudio.com”>info@devstudio.com</a></li>
             <li><a  class="contacts" href=”tel:+110001111111”>+11 (000) 111-11-11</a></li>
         </ul>
-        </address>
+        </address> </nav></div>
     </header>
     
+    
     <main>
-        <section class="bgrd">
+        <!--Section 1-->
+        
+            <section class="bgrd">
+                <div class="container">
+    
             <h1 class="main-title">Effective Solutions
                 for Your Business</h1>
-            <button type="button" class="button-style">Order Service
-        </section>
-        <section>
+            <button type="button" class="button-style">Order Service </button>
+                </div>
+        </section> 
+        <!--Section 2-->
+        <section class="flexbox">
+            <div class="container">
             <h2 class="visually-hidden">Theme</h2>
-            <ul>
+            <ul class="flex">
          <li class="hidden-dot">
                     <h2 class="header-theme">Strategy</h2>
                 <p>Our goal is to identify the business
@@ -62,30 +74,35 @@
                 <p class="theme-content">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving. </p>
             </li>
         </ul>
+            </div>
         </section>
-
-        <section>
+<!--Section 3-->
+        <section class="flexbox" >
+            <div class="container">
             <h2 class="doing-head">What are we doing</h2>
-           <ul> 
-            <li class="doing-card"><img src="./image/Rectangle71.jpg" alt="комп'ютер" width="360"></li>
+           <ul class="flex style-sec"> 
+            <li class="doing-card"><img src="./image/Rectangle71.jpg" alt="комп'ютер"></li>
            <li class="doing-card"> <img src="./image/Rectangle712.jpg" alt="Whatsapp" width="360"> </li>
            <li class="doing-card"><img src="./image/Rectangle713.jpg"
                 alt="телефон" width="360"></li></ul>
+              </div>>
         </section>
-        <section class="team-theme">
+        <!--Section 4-->
+        <section class="team-theme flexbox">
+            <div class="container">
             <h2 class="title-theme">Our Team </h2>
-                <ul>
+                <ul class="flex">
                  <li class="card-theme">  <img src="./image/img.jpg" alt="Mark" width="264">
                   <h2 class="theme-name">Mark Guerrero</h2>
                  <p class="doing-content">Product Designer</p></li>
                 
                
                     <li class="card-theme"> <img src="./image/img2.jpg" alt="Tom" width="264">
-                     <h2 class="theme-name">Tom Ford</h2>
+                    <h2 class="theme-name">Tom Ford</h2>
                      <p class="doing-content">Frontend Developer</p></li>
             
                     <li class="card-theme"> <img src="./image/img3.jpg" alt="Camila" width="264">
-                     <h2 class="theme-name">Camila Garcia</h2>
+                    <h2 class="theme-name">Camila Garcia</h2>
                      <p class="doing-content">Marketing</p> </li>
 
                
@@ -93,17 +110,23 @@
                     <h2 class="theme-name">Daniel Wilson</h2>
                     <p class="doing-content">UI Designer</p></li>
                 </ul>
+                </div>
 
         </section>
     </main>
 
-<footer class="bgrd">
+    <!--Footer-->
+ 
+    
+<footer class="footer-style">
+    <div class="container">
     <a class='footer-title' href="./index.html"> <span>WEB</span>STUDIO </a>
     <p class="footer-body">Increase the flow of customers and sales for your business with digital marketing & growth solutions.
         Typography</p>
+</div>
 
 </footer>
-
+  
 </body>
 
 

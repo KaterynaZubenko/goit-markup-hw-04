@@ -7,98 +7,113 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;800&family=Roboto:wght@400;500;700&display=swap"
         rel="stylesheet">
-        <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+      <link rel="stylesheet" href="./css/style.css" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Portfolio</title>
 </head>
-
+<!--Body-->
 <body class="portfolio-body">
-    <header class="header">
-        <nav>
+    <!--Header-->
+  
+<header class="header flex-header">
+    <div class="container ">
+        <nav class="flex-header">
             <a class='header-title' href="./index.html"><span class="iris">WEB</span>STUDIO </a>
-            <ul class="hidden-dot">
+            <ul class="hidden-dot flex-header">
                 <li> <a class="nav-link current" href="./index.html">Studio</a></li>
                 <li> <a class="nav-link" href="./portfolio.html">Portfolio</a></li>
                 <li>
-                    <a class="nav-link" href="">Contacts</a>
+                    <aa class="nav-link" href="">Contacts</a>
                 </li>
             </ul>
-        </nav>
-        <address>
-            <ul class="hidden-dot">
-                <li><a class="contacts" href=”mailto:info@devstudio.com”>info@devstudio.com</a></li>
-                <li><a class="contacts" href=”tel:+110001111111”>+11 (000) 111-11-11</a></li>
-            </ul>
-        </address>
-    </header>
-    <main>
- <section>
 
+            <address>
+                <ul class="hidden-dot header-contacts">
+                    <li><a class="contacts" href=”mailto:info@devstudio.com”>info@devstudio.com</a></li>
+                    <li><a class="contacts" href=”tel:+110001111111”>+11 (000) 111-11-11</a></li>
+                </ul>
+            </address>
+        </nav>
+    </div>
+</header>
+    
+    <main>
+        <!--Section Portfolio-->
+ <section class="porf-pad">
+<div class="container">
     <h1 class="visually-hidden">Portfolio</h1>
+    <div class="flex portfolio-buttons">
         <button class="portfolio-button" type="button"> All</button>
         <button class="portfolio-button" type="button">Website</button>
         <button class="portfolio-button" type="button">App</button>
         <button class="portfolio-button" type="button">Design</button>
         <button class="portfolio-button" type="button">Marketing</button>
-    
+    </div>
 
-    <ul class="hidden-dot">
+    <ul class="hidden-porf porfolio-flex">
         <li  class="portfolio-card">
             <img alt="banking" src="./image/img-5-2.jpg">
-            <h2 class="card-title">Banking App Interface Concept</h2>
+             <h2 class="card-title">Banking App Interface Concept</h2>
             <p class="card-content">App</p>
         </li>
         <li  class="portfolio-card">
             <img alt="cashless" src="./image/img-6-2.jpg">
-            <h2 class="card-title">Cashless Payment</h2>
+             <h2 class="card-title">Cashless Payment</h2>
             <p class="card-content">Marketing</p>
         </li>
         <li class="portfolio-card"> 
             <img alt="meditation" src="./image/img-7-2.jpg">
-            <h2 class="card-title">Meditation App</h2>
+             <h2 class="card-title">Meditation App</h2>
             <p class="card-content">App</p>
         </li>
         <li class="portfolio-card">
             <img alt="taxi" src="./image/img-8-2.jpg">
-            <h2 class="card-title">Taxi Service</h2>
+             <h2 class="card-title">Taxi Service</h2>
             <p class="card-content">Marketing</p>
         </li>
         <li class="portfolio-card">
             <img alt="screen" src="./image/img-12-2.jpg">
-            <h2 class="card-title">Screen Illustrations</h2>
+             <h2 class="card-title">Screen Illustrations</h2>
             <p class="card-content">Design</p>
         </li>
         <li class="portfolio-card">
             <img alt="online" src="./image/img-9-2.jpg">
-            <h2 class="card-title">Online Courses</h2>
+             <h2 class="card-title">Online Courses</h2>
             <p class="card-content">Marketing</p>
         </li>
         <li class="portfolio-card">
             <img alt="instagram" src="./image/img-10-2.jpg">
-            <h2 class="card-title">Instagram Stories Concept</h2>
+         <h2 class="card-title">Instagram Stories Concept</h2>
             <p class="card-content">Design</p>
         </li>
         <li class="portfolio-card">
             <img alt="organic" src="./image/img-13-2.jpg">
-            <h2 class="card-title">Organic Food</h2>
+         <h2 class="card-title">Organic Food</h2>
             <p class="card-content">Web Site</p>
         </li>
         <li class="portfolio-card">
             <img alt="fresh" src="./image/img-11-2.jpg">
-            <h2 class="card-title">Fresh Coffee</h2>
+             <h2 class="card-title">Fresh Coffee</h2>
             <p class="card-content">Web Site</p>
-        </li>
+        </li> </ul>
     </section> </main>
-       
-    </ul>
-    <footer class="bgrd">
+
+
+    <!--Footer-->
+    
+    <footer class="footer-style">
+    <div class="container">
         <a class='footer-title' href="./index.html"> <span>WEB</span>STUDIO </a>
-        <p class="footer-body">Increase the flow of customers and sales for your business with digital marketing & growth solutions.
+        <p class="footer-body">Increase the flow of customers and sales for your business with digital marketing & growth
+            solutions.
             Typography</p>
+    </div>
     
     </footer>
+   
     
     </body>
 </html>
