@@ -45,8 +45,8 @@
 
 .header {
     box-sizing: border-box;    
-        background: var(--main);
-    text-decoration: none;background-color: var(--cornflower); 
+    text-decoration: none;
+    background-color:var(--main); 
     padding-left:56px; display: flex;}
 
     .header-box {display: flex; padding: 24px 0;}
@@ -65,14 +65,22 @@
             color: var(--bgrd);
             text-decoration: none;
             margin-right: 76px;
-            padding-left: 41px;
+          
         
         }
+    
 
 
     
         .header-title span {
             color: var(--iris);
+        }
+
+        .nav-link-list {display: flex;
+            padding: 0;
+            margin: 0;
+        list-style-type: none;
+            gap: 24px;
         }
 
 /*Навігація*/
@@ -82,14 +90,23 @@
         font-weight: 500;
             font-size: 16px;
             line-height: 1.5;
-            letter-spacing: 0.02em;padding: 24px 0;
+            letter-spacing: 0.02em;
+            display: block;
+            padding: 24px 0;
 }
         .nav-link:hover,
         .nav-link:focus,
         .nav-link.current {
             color: var(--active-color);
         }
-
+.address {margin-left: auto;}
+.contacts-list {display: flex;
+            list-style-type: none;
+                gap: 24px;
+                margin-top: 0;
+                    margin-bottom: 0;
+          
+        }
     .contacts {
         text-decoration: none;
         color: var(--slate);
@@ -97,7 +114,9 @@
             font-size: 16px;
             line-height: 1.5;
             letter-spacing: 0.02em;
-            font-style: normal; padding: 24px 0;}
+            font-style: normal; 
+            display: block;
+            padding: 24px 0;}
        
 .contacts:hover,
 .contacts:focus {
@@ -128,9 +147,6 @@
     font-size: 56px;
     line-height: 1.07;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-justify-content: center;
 color: var(--main); 
 width: 494px;
 margin-left: auto;
@@ -151,6 +167,8 @@ margin-bottom: 48px;
         background-color: var(--iris);
         color: var(--main);
         padding: 16px 32px;
+        border: none;
+        border-radius: 4px;
         
         
 }
@@ -167,7 +185,7 @@ margin-bottom: 48px;
 }
 .section {padding-left: 56px; padding-right: 56px;}
 
-.doing-card {text-align: center;list-style-type: none; width: 360px;}
+.doing-card {text-align: center;list-style-type: none; flex-basis: calc((1128-24*2)/3);}
 .header-theme {
     font-weight: 500;
     font-size: 20px;
@@ -175,17 +193,26 @@ margin-bottom: 48px;
 color: var(--bgrd);
 margin-bottom: 8px;
 
+
 }
-.flexbox {padding: 120px 0;}
-.style-sec
+.flexbox {padding: 120px 0;
+margin: 0;}
+.style-sec {display: flex;
+    gap: 24px;
+   
+    padding:0;}
 .flexboxsec {
-    padding-bottom:120px;
+  padding-bottom: 120px;
 }
 .flex {display: flex;
     gap: 24px; 
     justify-content: center;
-padding-left: 41px;
-padding-right: 56px;}
+padding: 0;
+margin: 0;}
+
+.flexcard {display: flex;
+    gap: 24px;
+    padding: 0;}
 
 
 /*Секція 3*/
@@ -208,14 +235,11 @@ background: var(--main);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
     list-style-type: none;
+    flex-basis: calc((1128-3*24)/4);
+   
 }
 
-.card-title 
-{font-family: Roboto, sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-margin-bottom: 8px; padding-left: 16px; padding-top: 32px;}
+
 
 .theme-names { font-weight: 500;
     font-size: 20px;
@@ -224,8 +248,16 @@ margin-bottom: 8px; padding-left: 16px; padding-top: 32px;}
         border-radius: 0px 0px 4px 4px;
     }
 
-        .theme-name {text-align: center; padding-top: 32px;margin-bottom: 8px;}
-    .doing-content {text-align: center; padding-bottom: 32px; }
+        .theme-name {margin-top:0; margin-bottom:  8px;}
+    .doing-content {
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+    margin-bottom: 0px;
+margin-top: 8px; border-radius: 0px 0px 4px 4px;
+    }
 
     /*Portfolio*/
     .portfolio-body {
@@ -249,7 +281,9 @@ margin-bottom: 8px; padding-left: 16px; padding-top: 32px;}
             letter-spacing: 0.04em;
             background-color: var(--cloud);
             border: 1px solid --cornflower; border-radius: 4; 
-        color: var(--iris);}
+        color: var(--iris);
+    padding: 12px 24px;
+border: none; border-radius: 4px;}
 
                 .portfolio-button:hover,
                 .portfolio-button:focus,
@@ -260,12 +294,11 @@ margin-bottom: 8px; padding-left: 16px; padding-top: 32px;}
 
                 .porf-pad { padding-top: 96px; padding-bottom: 120px;}
 
- .portfolio-card {background:var(--main); border-bottom: 1px solid var(--cornflower);
-    border-left: 1px solid var(--cornflower);
-    border-right: 1px solid var(--cornflower); margin-bottom: 48px;}
- .card-content {color:var(--slate); padding-left: 16px; padding-bottom: 32px;}
+ .portfolio-card {background:var(--main);}
+ .card-content {color:var(--slate); margin-top: 8px;margin-bottom: o;}
       
 .portfolio-card:nth-last-child(-n+3) {margin-bottom: 0px;}
+
 /*Підвал*/
 .footer-title {
     font-family:Raleway,sans-serif;
@@ -278,13 +311,10 @@ margin-bottom: 8px; padding-left: 16px; padding-top: 32px;}
         text-transform: uppercase;
         color: var(--cloud);
         text-decoration: none;
-        padding-top: 100px;
         margin-bottom: 16px;
-        padding-left: 56px;
 }
 .footer-body {
-color: var(--cornflower); max-width: 264px; padding-bottom:100px; padding-left: 56px;
-}
+color: var(--cornflower); max-width: 264px;}
 
 .footer-title span 
 {color: var(--iris);}
@@ -294,6 +324,21 @@ color: var(--cornflower); max-width: 264px; padding-bottom:100px; padding-left: 
 *::after {
     box-sizing: border-box;
 }
-.porfolio-flex {display:flex; flex-wrap:wrap; width:calc((1128px-2*20)/3);}
-.footer-style {background-color: var(--bgrd);}
-.hidden-porf {list-style-type: none; gap: 1px;}
+.porfolio-flex {display:flex; flex-wrap:wrap; gap: 48px 24px; width:calc((1128px-2*20)/3);}
+.footer-style {background-color: var(--bgrd); padding: 100px 0;}
+.hidden-porf {list-style-type: none; padding: 0; margin: 0;}
+.card-title {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+.card-div {padding: 32px 0; text-align: center;}
+.porf-div {
+    padding: 32px 0 32px 16px;
+    border-left: 1px solid #E7E9FC;
+    border-right: 1px solid #E7E9FC;
+    border-bottom: 1px solid #E7E9FC;}
+    
