@@ -333,12 +333,12 @@ color: var(--cornflower); max-width: 264px;}
     font-size: 20px;
     line-height: 1.2;
     margin-top: 0;
-    margin-bottom: 8px;
+    margin-bottom: 8px; 
 }
 .card-div {padding: 32px 0; text-align: center;}
 .porf-div {
     padding: 32px 0 32px 16px;
-    border-left: 1px solid #E7E9FC;
-    border-right: 1px solid #E7E9FC;
-    border-bottom: 1px solid #E7E9FC;}
+    border-left: 1px solid var(--cornflower);
+    border-right: 1px solid var(--cornflower);
+    border-bottom: 1px solid var(--cornflower);}
     
