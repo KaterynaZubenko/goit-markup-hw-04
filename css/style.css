@@ -37,6 +37,7 @@
      width: 1158px;
      margin: 0 auto;
      padding: 0 15px;
+
  }
  .container {
                     width: 1158px;
@@ -139,8 +140,18 @@
 }
 
 /*Секція 1*/
-.bgrd {background-color: var(--bgrd);padding: 188px 0;
+.bgrd { 
+    width: 1440px;
+    background-color: var(--bgrd); 
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../image/people-office.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover; 
+    padding: 188px 0;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+   
     
   
 }
@@ -201,6 +212,8 @@ color: var(--bgrd);
 margin: 0;
 padding: 0;
 margin-bottom: 8px;
+margin-top: 8px;
+
 }
 
 .theme-content {
@@ -225,8 +238,10 @@ margin: 0;}
 .flex {display: flex;
     gap: 24px; 
     justify-content: center;
+    align-items: center;
 padding: 0;
-margin: 0;}
+margin: 0;
+}
 
 .flexcard {display: flex;
     gap: 24px;
@@ -259,8 +274,24 @@ background: var(--main);
    
 }
 
+.soc-list {display: flex;
+justify-content: center;
+padding: 0;
+margin: 0;
+margin-top: 8px;
+gap: 24px;}
 
+.soc-item {width: 40px;height: 40px; list-style-type: none;} 
 
+.card-link {width: 100%;
+height: 100%;
+border-radius: 50%; 
+display: block;
+background-color: var(--iris);
+display: flex;
+justify-content: center;
+align-items: center;
+}
 .theme-names { font-family: roboto,sans-serif;
     font-weight: 500;
     font-size: 20px;
@@ -315,6 +346,7 @@ border: none; border-radius: 4px;}
                 .portfolio-button.current {
                     background-color: var(--active-color);
                     color: var(--main);
+                    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
                 }
 
                 .porf-pad { padding-top: 96px; padding-bottom: 120px;}
@@ -346,9 +378,11 @@ border: none; border-radius: 4px;}
         color: var(--cloud);
         text-decoration: none;
         margin-bottom: 16px;
+        margin-left: 156px;
 }
 .footer-body {
-color: var(--cornflower); max-width: 264px;}
+color: var(--cornflower); max-width: 264px;
+margin-left: 156px;}
 
 .footer-title span 
 {color: var(--iris);}
@@ -359,7 +393,8 @@ color: var(--cornflower); max-width: 264px;}
     box-sizing: border-box;
 }
 .porfolio-flex {display:flex; flex-wrap:wrap; gap: 48px 24px; width:calc((1128px-2*20)/3);}
-.footer-style {background-color: var(--bgrd); padding: 100px 0;}
+.footer-style {
+width:1440px; margin-left: auto;margin-right: auto; background-color: var(--bgrd); padding: 100px 0;}
 .hidden-porf {list-style-type: none; padding: 0; margin: 0;}
 .card-title {
     font-family: Roboto, sans-serif;
@@ -376,3 +411,57 @@ color: var(--cornflower); max-width: 264px;}
     border-right: 1px solid var(--cornflower);
     border-bottom: 1px solid var(--cornflower);}
     
+.soc-list {fill: var(--main);}
+.icon-item { 
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center; }
+.use-icon { display: flex;
+    justify-content: center;
+    align-items: center;}
+
+    .icon-list-svg {width: 100%;
+height: 100%;
+border-radius: 50%; 
+display: block;
+background-color: var(--iris);
+display: flex;
+justify-content: center;
+align-items: center;}
+.icon-list-sec {background-color: var(--cloud);
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+    .portfolio-card:hover,
+        .portfolio-card:focus,
+                .portfolio-card.current{box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);}
+
+    .foot-link {width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        display: block;
+        background-color: rgba(255, 255, 255, 0.1);;
+        display: flex;
+        justify-content: center;
+        align-items: center;}
+
+        .footer-div {display: flex; 
+            margin: 0;
+            padding: 0;
+            margin-right: 700px;
+        gap: 120px;}
+        .second-div {margin: 0; padding: 0;}
+        .soc-media {color: var(--main);margin: 0;
+        padding: 0; margin-bottom: 16px;
+        font-family: roboto, sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;}
