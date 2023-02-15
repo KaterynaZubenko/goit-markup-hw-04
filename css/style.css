@@ -41,8 +41,7 @@
      margin: 0 auto;
      padding: 0 15px;
     border-bottom: 1px solid #E7E9FC;
-        box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-
+       
  }
  .container {
                     width: 1158px;
@@ -251,7 +250,8 @@ margin: 0;
 
 .flexcard {display: flex;
     gap: 24px;
-    padding: 0;}
+    padding: 0;
+margin: 0;}
 
 
 /*Секція 3*/
@@ -492,7 +492,7 @@ margin-right: auto;}
     align-items: center;
     list-style-type: none;
     gap: 24px;
-    margin-bottom: 72px;
+  
 }
 .cus-link { width: 168px;
 height: 88px;
